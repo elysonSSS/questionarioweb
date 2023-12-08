@@ -25,14 +25,14 @@ modalBtns.forEach(modalBtn => modalBtn.addEventListener('click', () => {
 
 	modalBody.innerHTML = `
 
-	<div class="h5" mb-3"> Let's go for <b>${name}</b></div>
+	<div class="h5" mb-3"> Prepare-se para o <b>${name}</b></div>
 	<div class="text-muted">
 	<ul>
 
-		<li> Difficulty: <b> ${diff} </b> </li>
-		<li> Number Of Questions: <b> ${ques} </b> </li>
-		<li> Time: <b> ${time} Minutes </b> </li>
-		<li> Required Score:  <b> ${pass} </b> </li>
+		<li> Dificuldade: <b> ${diff} </b> </li>
+		<li> Numero de questões: <b> ${ques} </b> </li>
+		<li> Tempo: <b> ${time} Minutes </b> </li>
+		<li> Pontuação necessária:  <b> ${pass} </b> </li>
 
 
 	</ul>

@@ -137,7 +137,7 @@ const sendData = () => {
 			const results = response.results;
 			console.log(results);
 			quizForm.classList.add('not-visible');
-			scoreBox.innerHTML = `${response.passed ? "Congratulations" : "Oops"} Your result is ${response.score.toFixed(2)}`
+			scoreBox.innerHTML = `${response.passed ? "Parabéns!" : "Não foi desta vez..."} Sua pontuação é ${response.score.toFixed(2)}`
 			results.forEach(res => {
 
 				const resDiv = document.createElement("div")
